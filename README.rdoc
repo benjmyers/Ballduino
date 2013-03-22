@@ -1,6 +1,12 @@
+== Ballduino
+
 Ballduino Breaker is a classic brick breaker game adapted for the Arduino, a popular microcontroller. Utilizing a graphic LCD and a simple potentiometer to control paddle motion, the user is able to successfully bounce a ball about the screen and break bricks until all bricks are destroyed (the user wins) or the ball falls off the screen (the user loses). 
 
-An ATmega 328P microcontroller and a KS0108 Graphic LCD were used. The Atmega 328P is directly connected to the Graphic LCD, which has a 128 by 64 pixel screen.
+An ATmega 328P microcontroller and a KS0108 Graphic LCD were used.The Atmega 328P is directly connected to the Graphic LCD, which has a 128 by 64 pixel screen.
 The program utilizes the KS0108 Graphics LCD Library (GLCD), available from the Arduino Playground (playground.arduino.cc), for easily interfacing with the LCD. GLCD provides a series of method calls that handle the initialization and clearing of the LCD, drawing of various shapes, and rendering of text.  
 
 Ballduino Breaker works and is moderately fun to play. The amount of fun one could have is limited by the small size of the LCD. Given more time, improvements to collision detection (specifically, what happens when the ball hits the paddle or a block at an odd angle) would improve game play. The game was completed in a few hours for my Electronics II midterm project.
+
+== License
+
+Distributed under the Apache License Version 2. See "license.txt" for more information.
